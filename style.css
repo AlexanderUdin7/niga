@@ -1,0 +1,93 @@
+body {
+    font-family:'Trebuchet MS';
+    background-color: rgb(3, 56, 3);
+    margin: 0;
+    padding: 0px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+h1,h2 {
+  font-family: "Special Gothic Expanded One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.header-nav {
+    z-index: 10px;
+    background-color: antiquewhite;
+    padding: 17px;
+    margin: 0;
+    text-align: center;
+    line-height: 1.2;
+    p {
+        font-style: italic;
+    }
+}
+.link {
+    background-color: antiquewhite;
+    text-decoration: none;
+    padding: 17px;
+    color: black;
+}
+.link:hover {
+    background-color: wheat;
+}
+.ronaldo {
+        z-index: 10;
+        position: absolute;
+        margin: 25px;
+        top: 0;
+        right: 0;
+        background-color: white;
+        border-radius: 15px;
+        padding: 4px 4px;
+        box-shadow: 1px 1px 2px;
+    }
+.container {
+    img {
+        border-radius: 15px;
+    }
+    margin: auto;
+    width: 800px;
+    padding: 20px;
+    background-color: antiquewhite;
+    border-radius: 15px;
+    text-align: center;
+    font-size: medium;
+    a {
+        text-decoration: none;
+        border-radius: 5px;
+        color: green;
+    }
+    a:hover {
+        text-decoration: none;
+        border-radius: 5px;
+        color: rgb(128, 201, 128);
+    }
+    li {
+        width: 50%;
+        text-align: center;
+        display: block;
+        margin: auto;
+    }
+}
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    td, th {
+        border: 1px solid black;
+        padding: 5px;
+        
+    }
+}
+th {
+    background-color: rgb(128, 201, 128);
+}
+footer {
+    padding: 25px;
+    background-color: antiquewhite;
+    padding: 17px;
+    text-align: center;
+    line-height: 1.2;
+    margin-top: auto;
+}
